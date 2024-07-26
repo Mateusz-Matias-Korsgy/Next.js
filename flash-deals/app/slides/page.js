@@ -1,5 +1,6 @@
 'use client'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -51,7 +52,9 @@ export default function Home() {
       <p className="text-sm mb-8">Up to 65% off</p>
       <Swiper 
         spaceBetween={10}
-        slidesPerView={1}
+        slidesPerView={2}
+        navigation
+        modules={[Navigation]}
         breakpoints={{
           640: {
             slidesPerView: 2,

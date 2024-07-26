@@ -51,7 +51,7 @@ export default function Home() {
       <p className="text-sm mb-8">Up to 65% off</p>
       <Swiper
         spaceBetween={10}
-        slidesPerView={1}
+        slidesPerView={2}
         breakpoints={{
           640: {
             slidesPerView: 2,
