@@ -22,6 +22,9 @@ export default function RootLayout({ children }) {
               <li>
                 <Link href='slides'>Flash Deals</Link>
               </li>
+              <li>
+                <Link href='walmart'>Walmart</Link>
+              </li>
             </ul>
           </nav>
         </header>
