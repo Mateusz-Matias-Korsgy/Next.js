@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.image-container {
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-size-image {
+  object-fit: covert;
+}

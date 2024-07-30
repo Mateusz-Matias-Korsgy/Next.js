@@ -13,24 +13,57 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${inter.className} bg-black text-white`}>
-        <header className='py-6 '>
-          <nav className='container '>
-            <ul className='flex gap-6'>
-              <li>
-                <Link href='/'>Home</Link>
-              </li>
-              <li>
-                <Link href='slides'>Flash Deals</Link>
-              </li>
-              <li>
-                <Link href='walmart'>Walmart</Link>
-              </li>
-            </ul>
-          </nav>
+      <header className='bg-blue-400 py-6'>
+            <div className='flex flex-row sm:flex-row items-center w-full border-b-4'>
+                <img src="/walmart.png" className="w-12 h-auto "/>
+                <button className="w-36 h-auto ml-5 text-black border border-black rounded-full">Shipping</button>
+                <div className='flex flex-row sm:flex-row items-center w-full ml-5 p-2 border rounded-full shadow-sm hover:shadow-md focus-within:shadow-md bg-white'>
+                    <input type="text" className="flex-grow px-4 py-2 text-black bg-transparent outline-none" placeholder="Search for your items here" />
+                    <img src="/glass.png" className="w-8 h-auto border rounded-full bg-blue-400 hover:bg-blue-500"/>
+                </div>
+                <button className="w-36 h-auto ml-5 text-black border border-black rounded-full">My Items</button>
+                <button className="w-36 h-auto ml-5 text-black border border-black rounded-full">Account</button>
+                <button className="w-36 h-auto ml-5 text-black border border-black rounded-full">Basket</button>
+            </div>
+            <div className='flex flex-row sm:flex-row items-center w-full border-t-4'>
+                <nav className='container '>
+                    <ul className='flex gap-6'>
+                        <li>
+                            <Link href='/' className='text-black'>Home</Link>
+                        </li>
+                        <li>
+                            <Link href='slides' className='text-black'>Flash Deals</Link>
+                        </li>
+                        <li>
+                            <Link href='walmart' className='text-black'>Walmart</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <main >{children}</main>
 
+      <footer className='p-6 bg-blue-400 '>
+        <div className='flex flex-row sm:flex-row w-full'>
+            <nav className='container '>
+                <ul className='flex gap-6'>
+                    <li>
+                        <Link href='/' className='text-black'>Home</Link>
+                    </li>
+                    <li>
+                        <Link href='slides' className='text-black'>Flash Deals</Link>
+                    </li>
+                    <li>
+                        <Link href='walmart' className='text-black'>Walmart</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div className='flex flex-row sm:flex-row w-full'>
+            <p className='text-black font-sans'>Thank you for shopping at our store, Come back soon.</p>
+        </div>
+      </footer>
       </body>
     </html>
   )
