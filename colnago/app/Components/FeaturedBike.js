@@ -10,7 +10,7 @@ const FeaturedBikes = () => {
         <div className="py-16 bg-gray-800">
             <div className="flex flex-col justify-center mb-4 space-y-6 md:space-y-0 md:space-x-6">
                 <img src="Manifesto.png" className="p-2 m-2 rounded-3xl"></img>
-                <p className="text-white ">We are the Ace of Cycling. We pursue nothing but excellence. We aim for the best in everything we do, The bold, triumphant spirit of our champions inspires us to create the most successful and trailblazing experiences.</p>
+                <p className="text-white sm:text-xl md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl">We are the Ace of Cycling. We pursue nothing but excellence. We aim for the best in everything we do, The bold, triumphant spirit of our champions inspires us to create the most successful and trailblazing experiences.</p>
             </div>
             <div className="flex flex-col justify-center mb-4 space-y-6 md:space-y-0 md:space-x-6">
                 <img src="Makers.png" className="item-center mb-2 p-2 rounded-3xl"></img>
@@ -20,7 +20,7 @@ const FeaturedBikes = () => {
             </div>
             <div>
                 <img src="Win.png" className="item-center mb-2 p-2 rounded-3xl"></img>
-                <p className="text-l text-center text-white mb-6">Legend, elegance, technology and timeless charm. Owning a Colnago is a pride that is passed down through the generations.</p>
+                <p className="text-center text-white mb-6 sm:text-xl md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl">Legend, elegance, technology and timeless charm. Owning a Colnago is a pride that is passed down through the generations.</p>
             </div>
             <h2 className="text-3xl font-bold text-center text-white ">Featured Bikes</h2>
             <div className="flex flex-col md:flex-row justify-center p-4 space-y-6 md:space-y-0 md:space-x-6">

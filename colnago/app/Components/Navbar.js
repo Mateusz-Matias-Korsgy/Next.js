@@ -7,13 +7,14 @@ const Navbar = () => {
 
 return (
     <nav className="flex justify-between items-center py-4 px-8 bg-black shadow-md">
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden grid grid-cols-5 object-left">
             <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
                 Menu
             </button>
-        </div>
-        <div className="flex justify-center">
-            <img src='/logo.png' alt="Colnago Logo" className="h-10 rounded-2xl bg-white"/>            
+            <img src='/logo.png' alt="Colnago Logo" className="h-10 rounded-2xl bg-white"/>
+            <p className="text-white focus:outline-none mt-2">COLNAGO</p>
+            <button className="text-white focus:outline-none">Search</button>
+            <button className="text-white focus:outline-none">Cart</button>            
         </div>
         <div className="hidden md:flex space-x-6">
             <Link href='/bikes' className="hover:text-gray-700">Bikes</Link>
