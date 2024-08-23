@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white py-8">
             <div className="container mx-auto px-4 text-center">
-                    <div className="grid grid-cols-4 mt-4 space-x-4">
+                    <div className="grid grid-rows-4 grid-cols-1 md:grid-cols-4 md:grid-rows-1 gap-4 mb-4">
                         <div>
                             <a href="/about" className="hover:underline">About us</a>
                             <ul className="grid grid-cols-1 object-left">
