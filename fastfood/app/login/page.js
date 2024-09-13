@@ -29,7 +29,7 @@ export default function Login() {
                         placeholder="Email" 
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                        className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
                         required /> 
                     </div> 
                     <div className="mb-4"> 
@@ -38,7 +38,7 @@ export default function Login() {
                         placeholder="Password" 
                         value={password} 
                         onChange={(e) => setPassword(e.target.value)}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
+                        className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:border-green-500"
                         required /> 
                     </div> 
                     <div className="flex justify-between item-center mb-6"> 
@@ -50,7 +50,7 @@ export default function Login() {
                         Sign in 
                     </button> 
                 </form> 
-                <p className="mt-4 text-sm"> 
+                <p className="mt-4 text-black text-sm"> 
                     I don't have an account?{" "} 
                     <a href="/register" className="text-green-500 hover:underline"> 
                         Sign up 

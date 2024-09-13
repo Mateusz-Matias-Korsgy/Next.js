@@ -9,8 +9,8 @@ export default function Products() {
                     <Header/>
                     <div>
                         <header className="flex items-center justify-between mb-4"> 
-                            <h1 className="text-3xl font-bold">Products</h1> 
-                            <p className="text-xl">Hi, Mark. Welcome back!</p> 
+                            <h1 className="text-3xl font-bold text-black">Products</h1> 
+                            <p className="text-xl text-black">Hi, Mark. Welcome back!</p> 
                             <div className="flex items-center space-x-4"> 
                                 <input type="text" placeholder="Search here" className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green-500" /> 
                                 <button className="bg-white border border-gray-300 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100"> 
@@ -40,8 +40,8 @@ export default function Products() {
                                 { id: '#FastFood', date: '05 May 2023 18:32'}, 
                                 ].map((product, index) => ( 
                                 <tr key={index} className="border-t"> 
-                                    <td className="px-6 py-4">{product.id}</td> 
-                                    <td className="px-6 py-4">{product.date}</td> 
+                                    <td className="px-6 text-black py-4">{product.id}</td> 
+                                    <td className="px-6 text-black py-4">{product.date}</td> 
                                     <td className="px-6 py-4"> 
                                         <button className="text-gray-600 hover:text-gray-900 mx-1">✏️</button> 
                                         <button className="text-gray-600 hover:text-gray-900 mx-1">🗑️</button> 
