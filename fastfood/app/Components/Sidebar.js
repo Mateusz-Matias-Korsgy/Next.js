@@ -6,37 +6,37 @@ export default function Layout({ children }) {
                 <div className="p-6"> 
                     <img src="/logo.png" alt="Ujali Food" className="h-20 w-40 object-contain" />
                     <nav className="space-y-4"> 
-                        <a href="/dashboard" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="/dashboard" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">📊</span> Dashboard 
                         </a> 
-                        <a href="/products" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="/products" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">🛍️</span> Products 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">👥</span> Users 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">🚚</span> Drivers 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">🤝</span> Partners 
                         </a> 
-                        <a href="/orders" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="/orders" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">📦</span> Orders 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">💵</span> Transactions 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">💬</span> Chat 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">🔔</span> Notifications 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">📧</span> E-mails 
                         </a> 
-                        <a href="#" className="flex items-center text-gray-700 hover:bg-green-100 p-2 rounded"> 
+                        <a href="#" className="flex items-center font-[Poppins] text-sidebar hover:bg-light-green hover:text-custom-green p-2 rounded"> 
                             <span className="mr-2">⚙️</span> Admin 
                         </a> 
                     </nav> 

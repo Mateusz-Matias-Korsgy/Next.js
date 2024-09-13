@@ -21,7 +21,7 @@ export default function Dashboard() {
     if(!isLoggedIn) return null;
 
     return (
-        <div className="flex min-h-screen bg-gray-100">
+        <div className="flex min-h-screen bg-gray-100 pr-8">
             <Sidebar/>
             <div className="flex-1 ml-12">
                 <Header/>

@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
+import Image from "next/image";
 
 export default function Products() { 
     return ( 
@@ -8,15 +9,27 @@ export default function Products() {
                 <div className="flex-1 ml-12">
                     <Header/>
                     <div>
-                        <header className="flex items-center justify-between mb-4"> 
+                        <header className="flex flex-col justify-between mb-4"> 
                             <h1 className="text-3xl font-bold text-black">Products</h1> 
                             <p className="text-xl text-black">Hi, Mark. Welcome back!</p> 
                             <div className="flex items-center space-x-4"> 
-                                <input type="text" placeholder="Search here" className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green-500" /> 
-                                <button className="bg-white border border-gray-300 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100"> 
+                            <input type="text" placeholder="Search here" className="w-6/12 px-3 py-2 border border-[#8F8F8F] focus:outline-none focus:border-green-500" /> 
+                                <button className="flex flex-row bg-white border border-gray-300 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100"> 
+                                    <Image
+                                        src="/filter.png"
+                                        alt="Filter"
+                                        width={20}
+                                        height={20}
+                                    />
                                     Filter 
                                 </button> 
-                                <button className="bg-white border border-gray-300 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100"> 
+                                <button className="flex flex-row bg-white border border-gray-300 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-100"> 
+                                    <Image
+                                        src="/calendar.png"
+                                        alt="Calendar"
+                                        width={20}
+                                        height={20}
+                                    />
                                     Today 
                                 </button> 
                                 <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"> 
