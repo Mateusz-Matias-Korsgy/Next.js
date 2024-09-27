@@ -1,0 +1,3 @@
+Username: Meti
+Email: 1234@gmail.com
+Password: 1234
