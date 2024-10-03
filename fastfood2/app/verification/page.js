@@ -39,9 +39,13 @@ export default function Verification() {
     };
 
     return (
-        <div className="flex h-screen">
-            <div className="w-3/5 flex flex-col justify-center items-center bg-white">
-            <img src="logo.png" alt="Ujali Food" className="w-wrap h-16"/>
+        <div className="relative flex h-screen bg-gray-100">
+            <img
+                src="/logo.png"
+                alt="Ujali Food"
+                className="absolute top-6 left-6 h-10"
+            />
+            <div className="w-full md:w-3/5 flex flex-col justify-center items-center bg-white px-16">
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <h2 className="text-4xl font-bold mb-6 text-black">Verification Code</h2>
                     <p className="mb-4 text-text-g">Enter the code that we have sent to your email {' '}<span className="font-bold">{email}</span></p>
@@ -54,7 +58,7 @@ export default function Verification() {
                                 value={digit}
                                 maxLength="1"
                                 onChange={(e) => handleChange(e, index)}
-                                className="w-3.5 h-6 text-3xl bg-bg-gray border hover:border-border hover:bg-hover rounded text-center"
+                                className="w-20 h-12 text-3xl bg-bg-gray border hover:border-text-r hover:bg-hover rounded text-center text-black"
                                 required
                             />
                         ))}
@@ -66,8 +70,13 @@ export default function Verification() {
                 </form>
             </div>
             <div
-                className="w-2/5 h-auto mx-auto bg-cover bg-center"
-                style={{backgroundImage: `url('/food.png')`}}
+                className="hidden md:block md:w-2/5 bg-cover bg-center"
+                style={{
+                    backgroundImage: `url('/food.png')`,
+                    borderTopLeftRadius: '60px',
+                    backgroundPosition: 'center 30%',
+                    backgroundSize: 'cover'
+                }}
             ></div>
         </div>
     )

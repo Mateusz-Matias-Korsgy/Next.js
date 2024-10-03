@@ -47,9 +47,13 @@ export default function SignUp() {
     };
 
     return(
-        <div className="flex h-screen">
-            <div className="w-3/5 flex flex-col justify-center items-center bg-white">
-            <img src="logo.png" alt="Ujali Food" className="w-wrap h-16"/>
+        <div className="relative flex h-screen bg-gray-100">
+            <img
+                src="/logo.png"
+                alt="Ujali Food"
+                className="absolute top-6 left-6 h-10"
+            />
+            <div className="w-full md:w-3/5 flex flex-col justify-center items-center bg-white px-16">
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <h2 className="text-4xl font-bold text-black mb-6">Sign Up</h2>
                     {error && <p className="text-red-500">{error}</p>}
@@ -87,7 +91,7 @@ export default function SignUp() {
                     />
                     <div className="flex items-center space-x-2">
                         <input type="checkbox" required/>
-                        <span>
+                        <span className="text-black">
                             By signing up you accept the{' '}
                             <a href="#" className="text-text-r">Terms of service</a>{' '}
                             and{' '}
@@ -99,7 +103,7 @@ export default function SignUp() {
                         className="w-full bg-l-green text-white p-3 rounded">
                         Sign up
                     </button>
-                    <p>
+                    <p className="text-black">
                         Already have an account?{' '}
                         <a href="/login" className="text-text-r">
                             Sign in
@@ -108,8 +112,13 @@ export default function SignUp() {
                 </form>
             </div>
             <div
-                className="w-2/5 h-auto mx-auto bg-cover bg-center"
-                style={{backgroundImage: `url('/food.png')`}}
+                className="hidden md:block md:w-2/5 bg-cover bg-center"
+                style={{
+                    backgroundImage: `url('/food.png')`,
+                    borderTopLeftRadius: '60px',
+                    backgroundPosition: 'center 30%',
+                    backgroundSize: 'cover'
+                }}
             ></div>
         </div>
     );

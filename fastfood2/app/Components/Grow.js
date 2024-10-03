@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 export default function Grow() {
   return (
-    <div className="min-h-screen bg-white">
-      <section className="bg-white p-10 flex flex-col md:flex-row items-center justify-between">
+    <div className="min-h-screen w-screen bg-white ">
+      <section className="bg-white p-10 flex flex-col md:flex-row w-fit">
         <div className="max-w-lg">
-          <div className="bg-weak-orange rounded-full px-4 py-1 text-sm text-black mb-4 inline-block">
+          <div className="bg-text-o rounded-full px-4 py-1 text-sm text-black mb-4 inline-block">
             Food is an Adventure
           </div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight text-black">
@@ -46,8 +46,8 @@ export default function Grow() {
               <Image 
                 src="/restaurant.png"
                 alt="Restaurant"
-                width={800}
-                height={400}
+                width={1000}
+                height={500}
                 className="rounded-lg"
               />
               <button className="absolute inset-0 flex items-center justify-center">
@@ -71,10 +71,10 @@ export default function Grow() {
         </div>
       </section>
 
-      <section className="bg-l-green py-8">
+      <section className="bg-l-green py-8 w-fit rounded-lg">
         <div className="container mx-auto text-center">
           <Link legacyBehavior href="/partner">
-            <a className="text-white text-lg font-semibold px-8 py-4 bg-l-green rounded-lg transition">
+            <a className="text-white text-lg font-semibold px-8 py-4 transition">
               Be a partner with Ujali
             </a>
           </Link>
