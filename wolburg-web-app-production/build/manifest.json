@@ -1,0 +1,59 @@
+{
+  "theme_color": "#08AC04",
+  "background_color": "#08AC04",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Wolburg",
+  "short_name": "Wolburg",
+  "description": "Welcome to Wolburg your trusted Business Service company for enterprise needs. Contact us for expert solutions.",
+  "icons": [
+    {
+      "src": "maskable.png",
+      "sizes": "533x533",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo16",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "logo32",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "logo48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "logo72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "logo96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "logo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "preferred_related_applications": true
+}

@@ -1,0 +1,29 @@
+.bgCustomRgba {
+  background: rgba(110, 139, 210, 1);
+}
+
+.bgMessage {
+    background: rgba(110, 139, 210, 0.12);
+}
+
+.textColor {
+    color: rgba(61, 61, 61, 1);
+}
+
+.btnStyle {
+  background: #6E8BD2;
+border-radius: 10px;
+
+padding: 20px;
+}
+
+.chatInputStyle {
+  background: #FDFDFD;
+border: 1px solid #D9D9D9;
+border-radius: 10px;
+height: 68px;
+}
+
+.chatInputStyle:active {
+  border:1px solid black
+}
