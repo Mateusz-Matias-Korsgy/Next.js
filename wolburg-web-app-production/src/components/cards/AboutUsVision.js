@@ -3,7 +3,7 @@ import finalImg from "./../../assets/images/about/final picture vision.png";
 
 const AboutUsCard = () => {
   return (
-    <div className="grid grid-col-1 md:grid-cols-2 gap-2 p-2 md:p-16 my-8" id="vision">
+    <div className="grid grid-col-1 lg:grid-cols-2 gap-2 p-2 md:p-16 my-8" id="vision">
       <div className="border-l border-primary-green pl-5 bg-white md:pr-16">
         <h3 className="font-bold text-base md:text-lg text-secondary-green uppercase  ">
           About

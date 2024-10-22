@@ -3,7 +3,7 @@ import chemImg from "./../../assets/images/about/Cheminement values.png";
 
 const AboutUsCard = () => {
   return (
-    <div className="grid grid-col-1 md:grid-cols-2 gap-2 md:gap-4 p-2 md:p-16 my-8" id="values">
+    <div className="grid grid-col-1 lg:grid-cols-2 gap-2 md:gap-4 p-2 md:p-16 my-8" id="values">
       <div className="align-center p-8 md:mx-auto order-2 md:order-1">
         <img
           src={chemImg}
