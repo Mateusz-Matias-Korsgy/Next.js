@@ -6,7 +6,7 @@ const SubscribeNow = () => {
   return (
     <>
       <div className="md:m-8 px-2 ">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-2  p-6 rounded-lg shadow-lg text-primary-blue bg-subscribe-rgba">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-2  p-6 rounded-lg shadow-lg text-primary-blue bg-subscribe-rgba">
           <div className="pl-2 md:pl-24 text-center md:text-left ">
             <h2 className="text-2xl font-bold mb-2 md:mt-6">
               Like our Services ? <br></br>Subscribe Now
