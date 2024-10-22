@@ -81,7 +81,7 @@ const PartnerLogoSlider = () => {
     ],
   };
   return (
-    <div className="p-4 md:p-8 px-12 ">
+    <div className="p-2 lg:p-8 px-12 ">
       {" "}
       <Slider {...setting}>
         {images.map((i, index) => (
