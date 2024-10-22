@@ -24,7 +24,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   };
 
   return (
-    <form className="my-4 md:my-8" onSubmit={(e) => handleSubmit(e)} >
+    <form className="my-2 lg:my-8" onSubmit={(e) => handleSubmit(e)} >
       {status === "sending" && <div className="text-black">sending...</div>}
       {status === "error" && (
         <div
